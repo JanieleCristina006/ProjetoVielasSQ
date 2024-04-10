@@ -2,9 +2,21 @@ import './styles.module.css'
 
 export const Footer = () => {
   return (
-    <>
-     <h1>Olá eu sou o footer</h1>
-     <h2>Footer2</h2>
-    </>
+
+    <div className={styles.container}>
+          <div className={styles.vielas}> 
+                  <h3>VIELAS</h3>
+                  </div>
+        
+            <div className={styles.icon}>
+            <a>icones</a>
+            </div>
+            <div className={styles.texto1}>
+                 <p>Quem Somos</p>
+                 <p>Equipe</p>
+                 <p>Apoie</p>
+                 <p>Fale Conosco</p>
+                </div>
+    </div>
   )
 }
