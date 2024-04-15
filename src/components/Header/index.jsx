@@ -1,8 +1,8 @@
-import './styles.module.css'
+import styles from './styles.module.css'
 
 export const Header = () => {
   return (
-    <>
+   <>
      <header>
             <div className={styles.header}>
                 <nav>
@@ -13,6 +13,7 @@ export const Header = () => {
                     </div>
                 </nav>
                 <div>className={styles.texto}</div>
+                
     </div>
     </header>
 

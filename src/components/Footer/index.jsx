@@ -1,6 +1,6 @@
-import './styles.module.css'
+import styles from'./styles.module.css'
 
-export const Footer = () => {
+export const Footer = () =>  {
   return (
 
     <div className={styles.container}>
