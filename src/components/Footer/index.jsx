@@ -1,4 +1,10 @@
 import styles from'./styles.module.css'
+import { TiSocialFacebookCircular } from "react-icons/ti";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 export const Footer = () =>  {
   return (
@@ -9,7 +15,11 @@ export const Footer = () =>  {
                   </div>
         
             <div className={styles.icon}>
-            <a>icones</a>
+            <a><TiSocialFacebookCircular /></a>
+            <a><FaInstagram /></a>
+            <a><FaTwitter /></a>
+            <a><FaWhatsapp /></a>
+            <a><FaLinkedinIn /></a>
             </div>
             <div className={styles.texto1}>
                  <p>Quem Somos</p>
